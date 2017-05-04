@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+	font-family: "Microsoft Yahei",serif,sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+/*header开始*/
+header{
+	width: 80%;
+	height: 80px;
+	background-color: #369cdf;
+	margin: 0 auto;
+	position: relative;
+}
+#logo{
+	height: 60px;
+	width: 60px;
+	border: 1px solid #8f8f8f;
+	border-radius: 30px;
+	overflow: hidden;
+	margin-left: 20px;
+	float: left;
+}
+#job{
+	float: right;
+	margin-right: 30px;
+	color: #fffdc0; 
+	height: 60px;
+	line-height: 60px;
+}
+#job span{
+	font-size: 2em;
+	font-weight: bold;
+}
+nav ul{
+	position: absolute;
+	bottom: 0px;
+	left: 150px;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+	margin:0 3px;
+	/*background-color: #fff;*/
+	border: 3px ridge #fffdc0;
+	border-radius: 5px 5px 0 0;
+	border-bottom: none;
+}
+nav ul li:hover{
+	background-color: #fffdc0;
+}
+nav ul li a{
+	font-size: 1.5em;
+	display: inline-block;
+}
+nav ul li a:hover,nav ul li a:active{
+	/*font-weight: bold;*/
+	color: #369cdf;
+}
+
+/*main开始*/
+main{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fffdc0;
+}
+h2{
+	font-size: 1.3em;
+	color: #8f8f8f;
+	clear: both;
+	padding-top: 10px; 
+	margin-left: 30px;
+}
+
+#part1 li{
+	padding: 10px 0; 
+	width: 500px;
+	display: inline-block;
+	float: left;
+	text-indent: 2em;
+}
+#part1 img{
+	display: inline-block;
+	width: 30px;
+	height: 30px
+	border:1px solid #8f8f8f;
+	border-radius: 15px;
+}
+#part2 li{
+	padding: 10px 0; 
+	float: left;
+	width: 500px;
+	display: inline-block;
+	text-indent: 2em;
+}
+
+#part3 figure{
+	float: left;
+	margin-left: 100px;
+}
+#part3 figure img{
+	width: 100px;
+	height: 100px;
+}
+#part3 figcaption{
+	width: 150px;
+}
+
+#part4 span{
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	border:2px solid #8f8f8f;
+	border-radius: 30px;
+	vertical-align: middle;
+}
+#line{
+	border-top: 2px solid #8f8f8f;
+	width: 60%;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 100px;
+}
+#year1{
+		display: inline-block;
+		position: absolute;
+		left: 100px;
+		top: 0;
+}
+#year2{
+		display: inline-block;
+		position: absolute;
+		left: 300px;
+		top: -105px;
+}
+#year3{
+		display: inline-block;
+		position: absolute;
+		left: 500px;
+		top: 0;
+}
+
+#part5 span{
+	display: inline-block;
+	text-indent: 200px;
+}
+hr{clear: both;border:1px solid #71b2dc;}
+
+
+/*footer开始*/
+footer{
+	width: 80%;
+	margin: 0 auto;
+	height: 60px;
+	background-color: #369cdf;
+	text-align: center;
+}
+footer p{
+	line-height: 60px;
+	height: 60px;
+}
